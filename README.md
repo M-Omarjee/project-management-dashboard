@@ -62,6 +62,9 @@ The app will open at http://localhost:8501
 
 ### 🧠 Future Enhancements
 🔄 Cloud deployment via Streamlit Cloud or Hugging Face Spaces
+
 🗂️ SQLite/PostgreSQL backend for persistent data
+
 🧩 Power BI connector or REST-based integration
+
 📬 Automated daily email summaries
