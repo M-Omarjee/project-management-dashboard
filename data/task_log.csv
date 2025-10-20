@@ -1,0 +1,26 @@
+Project_ID,Task_Name,Planned_Days,Actual_Days,Owner,Percent_Complete
+NHS-001,Task 1,11,11,Contractor,100
+NHS-001,Task 2,31,40,PM,84
+NHS-001,Task 3,17,18,Contractor,49
+NHS-001,Task 4,27,20,Trust IT,60
+NHS-001,Task 5,37,47,Clinical Leads,47
+NHS-002,Task 1,24,26,PM,56
+NHS-002,Task 2,33,39,Trust IT,81
+NHS-002,Task 3,12,14,Trust IT,53
+NHS-002,Task 4,16,15,PM,39
+NHS-002,Task 5,25,31,Trust IT,47
+NHS-003,Task 1,12,9,Clinical Leads,86
+NHS-003,Task 2,10,11,Trust IT,77
+NHS-003,Task 3,10,9,PM,99
+NHS-003,Task 4,16,18,Trust IT,17
+NHS-003,Task 5,19,23,Clinical Leads,41
+NHS-004,Task 1,13,16,Contractor,75
+NHS-004,Task 2,24,20,Trust IT,100
+NHS-004,Task 3,37,45,Contractor,40
+NHS-004,Task 4,30,37,Contractor,40
+NHS-004,Task 5,29,29,Contractor,63
+NHS-005,Task 1,32,38,Clinical Leads,84
+NHS-005,Task 2,10,10,PM,43
+NHS-005,Task 3,15,12,Clinical Leads,43
+NHS-005,Task 4,10,16,Trust IT,51
+NHS-005,Task 5,36,32,Contractor,76

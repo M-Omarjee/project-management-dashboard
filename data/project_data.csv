@@ -1,0 +1,6 @@
+Project_ID,Phase,Planned_Duration,Actual_Duration,Planned_Cost,Actual_Cost,Completion_Pct,Risk_Level,Status
+NHS-001,Design,162,159,2192743,2515766,55.3,Low,Delayed
+NHS-002,Build,159,173,1739911,1710103,64.1,Low,On Track
+NHS-003,Build,148,169,4030409,3391261,68.2,Medium,Delayed
+NHS-004,Fit-Out,190,195,2928388,2627791,77.6,Low,Delayed
+NHS-005,Build,68,77,3169995,2868323,64.0,High,At Risk
