@@ -4,3 +4,6 @@ scikit-learn
 python-dotenv
 fastapi
 uvicorn
+requests
+streamlit
+plotly
