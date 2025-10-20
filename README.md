@@ -20,32 +20,32 @@ It visualises project KPIs, risks, forecasts and financial performance in real-t
 
 ## ⚙️ Installation
 
-### 1️⃣ Clone the repository
+### 1. Clone the repository
 ```bash
 git clone https://github.com/M-Omarjee/projectpulse-dashboard.git
 cd projectpulse-dashboard
 ```
-2️⃣ Set up your virtual environment
+### 2. Set up your virtual environment
+```
 python3.11 -m venv .venv
 source .venv/bin/activate
-3️⃣ Install dependencies
+```
+### 3. Install dependencies
+```
 pip install -r requirements.txt
-If you don’t have a requirements.txt yet, create one:
-fastapi
-uvicorn
-pandas
-numpy
-requests
-streamlit
-plotly
-🚀 Run Locally
-Start the backend API
+```
+### 🚀 Run Locally
+Start the backend API:
+```
 uvicorn src.main:app --reload
+```
 It will run at http://127.0.0.1:8000
-Start the dashboard
+### Start the dashboard
+```
 streamlit run dashboard_app.py
+```
 The app will open at http://localhost:8501
-🧮 Example API Outputs
+### 🧮 Example API Outputs
 /kpis
 {"projects":5,"avg_completion_pct":65.8,"cost_variance_pct":-6.7,"time_variance_pct":6.3,"on_track":1,"at_risk":1,"delayed":3}
 /finance
@@ -53,10 +53,10 @@ The app will open at http://localhost:8501
   {"Project_ID":"NHS-001","Budget":2192743,"Actual":2515766,"Variance_Amount":323023,"Variance_Pct":14.7},
   {"Project_ID":"NHS-002","Budget":1739911,"Actual":1710103,"Variance_Amount":-29808,"Variance_Pct":-1.7}
 ]
-📊 Screenshot
+### 📊 Screenshot
 Overview	Finance
 (place your PNGs inside a /docs/ folder)
-🧠 Future Enhancements
+### 🧠 Future Enhancements
 🔄 Cloud deployment via Streamlit Cloud or Hugging Face Spaces
 🗂️ SQLite/PostgreSQL backend for persistent data
 🧩 Power BI connector or REST-based integration
