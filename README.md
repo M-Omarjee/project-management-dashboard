@@ -45,7 +45,8 @@ It will run at http://127.0.0.1:8000
 streamlit run dashboard_app.py
 ```
 The app will open at http://localhost:8501
-### 🧮 Example API Outputs
+## 🧮 Example API Outputs
+
 /kpis
 {"projects":5,"avg_completion_pct":65.8,"cost_variance_pct":-6.7,"time_variance_pct":6.3,"on_track":1,"at_risk":1,"delayed":3}
 /finance
@@ -54,13 +55,14 @@ The app will open at http://localhost:8501
   {"Project_ID":"NHS-002","Budget":1739911,"Actual":1710103,"Variance_Amount":-29808,"Variance_Pct":-1.7}
 ]
 
-### 📊 Screenshots
+## 📊 Screenshots
 
 | Overview | Finance |
 |-----------|----------|
 | ![Overview Dashboard](docs/Overview.png) | ![Finance Dashboard](docs/Finance.png) |
 
-### 🧠 Future Enhancements
+## 🧠 Future Enhancements
+
 🔄 Cloud deployment via Streamlit Cloud or Hugging Face Spaces
 
 🗂️ SQLite/PostgreSQL backend for persistent data
