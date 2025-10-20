@@ -53,9 +53,13 @@ The app will open at http://localhost:8501
   {"Project_ID":"NHS-001","Budget":2192743,"Actual":2515766,"Variance_Amount":323023,"Variance_Pct":14.7},
   {"Project_ID":"NHS-002","Budget":1739911,"Actual":1710103,"Variance_Amount":-29808,"Variance_Pct":-1.7}
 ]
-### 📊 Screenshot
-Overview	Finance
-(place your PNGs inside a /docs/ folder)
+
+### 📊 Screenshots
+
+| Overview | Finance |
+|-----------|----------|
+| ![Overview Dashboard](docs/Overview.png) | ![Finance Dashboard](docs/Finance.png) |
+
 ### 🧠 Future Enhancements
 🔄 Cloud deployment via Streamlit Cloud or Hugging Face Spaces
 🗂️ SQLite/PostgreSQL backend for persistent data
